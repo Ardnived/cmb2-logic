@@ -2,15 +2,15 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       CMB2 Field Logic
- * Plugin URI:        http://ctlt.ubc.ca
- * Description:       Allows the network administrators to force their subsite admins to fill out certain information about one's site.
- * Version:           0.1.1
- * Author:            CTLT, Devindra Payment
- * Text Domain:       ubcreg
+ * Plugin URI:        https://github.com/Ardnived/cmb2-logic
+ * Description:       A simple plugin which adds display logic for fields created by CMB2
+ * Version:           1.0
+ * Author:            Devindra Payment
+ * Text Domain:       cmb2l
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
- * GitHub Plugin URI: 
+ * GitHub Plugin URI: https://github.com/Ardnived/cmb2-logic
  */
 
 class CMB2_Logic {
