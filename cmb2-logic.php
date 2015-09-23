@@ -58,7 +58,7 @@ class CMB2_Logic {
 	 * Checks if the required plugin is installed.
 	 */
 	public static function meets_requirements() {
-		return true; //defined( 'CMB2_VERSION' );
+		return defined( 'CMB2_LOADED' );
 	}
 }
 

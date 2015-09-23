@@ -6,7 +6,7 @@ var CMB2_Logic = {
 
 	init: function() {
 		for ( var field_slug in CMB2_Logic.data ) {
-			var dependents = CMB2_Logic.parse_dependents( CMB2_Logic.data );
+			var dependents = CMB2_Logic.parse_dependents( CMB2_Logic.data[ field_slug ] );
 
 			if ( dependents.length > 0 ) {
 				dependents = dependents.reduce( function(p, c) {

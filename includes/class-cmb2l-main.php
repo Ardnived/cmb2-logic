@@ -16,7 +16,7 @@ class CMB2L_Main {
 
 	/**
 	 * Register the JS script and CSS style that are necessary for this page.
-	 * @filter admin_enqueue_scripts
+	 * @filter admin_enqueue_scripts, enqueue_scripts
 	 */
 	public static function register_scripts_and_styles() {
 		wp_register_script( 'cmb2-logic', CMB2_Logic::$directory_url . 'includes/js/cmb2-logic.js', array( 'jquery' ) );
